@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Share+Tech&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+dialog ::backdrop{
+    background-color: rgb(0 0 0 / .5);
+}
+.dialog5{
+    margin: 150px 200px 200px 200px;
+}
+.paragrafo1{
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+}
+.paragrafo2{
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+}
+.btn1{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px; 
+    font-weight: bold;
+
+}
+.btn2{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px; 
+    font-weight: bold;
+}
+.btn3{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px; 
+    font-weight: bold;
+}
+.btn4{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px; 
+    border: none;
+    width: 12.5%;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.btn5{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px; 
+    width: 12.5%;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+dialog{   
+    background-color: #e4e4e4;
+    margin: 180px 200px 200px 200px;
+    padding: 10px;
+    border: none;
+    border-radius: .9rem;
+    box-shadow: 0 0 1em rgb(0 0 0 );
+    width: 70%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 100;
+    font-size: 34px;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    
+}
+.submit{
+    height: 35px;
+    width: 25%;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 8px;
+    
+}
+.submit:hover{
+    cursor: pointer;
+
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(98.15deg, #000000 16.62%, #742020 85.61%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 100px;
+    width: 110px;
+   object-fit: cover;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-menu-item{
+    font-family: 'Share Tech', sans-serif;  
+    font-weight: 200;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    transition: background 0.3s;
+}
+
+.cabecalho-menu-item:hover{
+    background-color: rgba(255, 255, 255, 0.53);
+    cursor: pointer;
+
+}
+.cabecalho-menu-item:active{
+    background-color: rgba(196, 94, 94, 0.53);
+    cursor: pointer;
+
+}
+
+.conteudo{
+    margin-bottom: 58px;
+    
+}
+.corpo-imagem{
+    display: flex;
+    flex-direction: row ;
+    padding-left: 120px;
+    padding-top:60px;
+    height: 350px;
+    width: 400px;
+    object-fit: cover;
+}
+.conteudo-ao-todo{
+    display: flex;
+    flex-direction: row;
+    row-gap: 1200px;
+}
+
+.conteudo-principal{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 200px;
+    justify-content: left;
+    margin-bottom: 60px;
+    
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 32px;
+    flex-wrap:wrap;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.conteudo-principal-escrito2{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 32px;   
+    padding-bottom: 50px;
+    flex-wrap:wrap;
+}
+
+.conteudo-principal-escrito3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 105px;
+    flex-wrap:wrap;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    justify-content: center;
+    color: #e4e4e4;
+    
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #e4e4e4;
+    padding-left: 80px;
+    
+}
+
+.conteudo-principal-escrito-botao{
+    width: 280px;
+    height: 60px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+    transition: background 0.3s;
+    
+}
+.conteudo-principal-escrito-botao:hover{
+    
+    background-color: rgba(255, 255, 255, 0.53);
+    cursor: pointer;
+
+}
+
+.conteudo-principal-escrito-botao:active{   
+    background-color: rgba(196, 94, 94, 0.53);
+    cursor: pointer;
+
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+
+.conteudo-secudario-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #e4e4e4;
+    margin-bottom: 16px;
+}
+
+.conteudo-secudario-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #e4e4e4;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #e4e4e4;
+}
+
+.rodape-imagem{
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}

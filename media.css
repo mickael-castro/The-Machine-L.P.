@@ -1,0 +1,109 @@
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+    }
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .cabecalho-menu{
+        padding-top: 15px;
+    }
+    .conteudo-ao-todo{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: left;
+    }
+    .conteudo-principal-escrito-titulo{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    justify-content: right;
+    color: #e4e4e4;
+    padding-left: 60px;
+    }
+    .corpo-imagem{
+        display: none;
+    }
+
+    .conteudo-principal-escrito3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 20px;
+        padding-left: 100px;
+        flex-wrap:wrap;
+    }
+    .conteudo-principal-escrito{
+      display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 32px;
+    flex-wrap:wrap;
+    padding-bottom: 0px;
+    padding-top: 35px;
+    }
+
+
+    .conteudo-principal{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding-left: 20px;
+        justify-content: left;
+        margin-bottom: 0px;
+        
+    }
+    .conteudo-principal-escrito-botao{
+        width: 280px;
+        height: 60px;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #2F2325;
+        transition: background 0.3s;
+        
+    }
+    dialog{
+    background-color: #e4e4e4;
+    margin: 190px 2000px 20px 20px;
+    padding: 10px;
+    border: none;
+    border-radius: .9rem;
+    box-shadow: 0 0 1em rgb(0 0 0 );
+    width: 100%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 100;
+    font-size: 34px;
+    }
+
+    .submit{
+        height: 35px;
+        width: 35%;
+        font-weight: bold;
+        font-size: 15px;
+        padding-top: 8px;
+        
+    }
+    .btn4{
+        width: 17%;
+    }
+    .dialog5{
+        margin: 30px;
+
+    }
+    .dialog2{
+        margin: 30px;
+    }
+    .conteudo-secundario{
+        padding-left: 10px;
+    }
+}
